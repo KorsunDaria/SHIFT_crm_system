@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crm.controller.TransactionControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-05-12T14:28:00" hostname="MacBook-Pro-Daria-2.local" time="0.084">
+  <properties/>
+  <testcase name="getAllTransactions_shouldReturn200WithList()" classname="com.crm.controller.TransactionControllerTest" time="0.018"/>
+  <testcase name="createTransaction_shouldReturn201_withValidBody()" classname="com.crm.controller.TransactionControllerTest" time="0.013"/>
+  <testcase name="createTransaction_shouldReturn400_whenPaymentTypeMissing()" classname="com.crm.controller.TransactionControllerTest" time="0.009"/>
+  <testcase name="getAllTransactions_shouldReturnEmptyList()" classname="com.crm.controller.TransactionControllerTest" time="0.007"/>
+  <testcase name="createTransaction_shouldReturn404_whenSellerNotFound()" classname="com.crm.controller.TransactionControllerTest" time="0.008"/>
+  <testcase name="createTransaction_shouldReturn400_whenAmountIsNegative()" classname="com.crm.controller.TransactionControllerTest" time="0.008"/>
+  <testcase name="createTransaction_shouldReturn400_whenSellerIdMissing()" classname="com.crm.controller.TransactionControllerTest" time="0.008"/>
+  <testcase name="getTransactionById_shouldReturn404_whenNotFound()" classname="com.crm.controller.TransactionControllerTest" time="0.005"/>
+  <testcase name="getTransactionById_shouldReturn200_whenExists()" classname="com.crm.controller.TransactionControllerTest" time="0.006"/>
+  <system-out><![CDATA[21:28:00.685 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.685 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.685 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.692 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.692 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.692 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.704 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.705 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.705 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.715 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.715 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.715 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.720 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.720 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.720 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.730 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.730 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.730 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.738 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.738 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.738 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.745 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.745 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.745 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.752 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.752 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.752 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

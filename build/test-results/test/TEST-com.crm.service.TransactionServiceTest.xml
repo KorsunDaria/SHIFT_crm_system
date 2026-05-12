@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crm.service.TransactionServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-05-12T14:28:00" hostname="MacBook-Pro-Daria-2.local" time="0.011">
+  <properties/>
+  <testcase name="createTransaction_shouldSetCurrentTime_whenDateNotProvided()" classname="com.crm.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="getTransactionById_shouldThrow_whenNotFound()" classname="com.crm.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="createTransaction_shouldSave_whenSellerExists()" classname="com.crm.service.TransactionServiceTest" time="0.001"/>
+  <testcase name="getAllTransactions_shouldReturnList()" classname="com.crm.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="getTransactionById_shouldReturn_whenExists()" classname="com.crm.service.TransactionServiceTest" time="0.001"/>
+  <testcase name="createTransaction_shouldThrow_whenSellerNotFound()" classname="com.crm.service.TransactionServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

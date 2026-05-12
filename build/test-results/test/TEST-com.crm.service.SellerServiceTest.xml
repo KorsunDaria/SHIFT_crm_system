@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crm.service.SellerServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-05-12T14:28:00" hostname="MacBook-Pro-Daria-2.local" time="0.031">
+  <properties/>
+  <testcase name="deleteSeller_shouldThrow_whenNotFound()" classname="com.crm.service.SellerServiceTest" time="0.018"/>
+  <testcase name="createSeller_shouldSaveAndReturnDto()" classname="com.crm.service.SellerServiceTest" time="0.002"/>
+  <testcase name="getSellerById_shouldReturnSeller_whenExists()" classname="com.crm.service.SellerServiceTest" time="0.001"/>
+  <testcase name="getSellerById_shouldThrow_whenNotFound()" classname="com.crm.service.SellerServiceTest" time="0.001"/>
+  <testcase name="updateSeller_shouldUpdateName()" classname="com.crm.service.SellerServiceTest" time="0.002"/>
+  <testcase name="deleteSeller_shouldSetDeletedAt()" classname="com.crm.service.SellerServiceTest" time="0.002"/>
+  <testcase name="getAllSellers_shouldReturnListOfSellers()" classname="com.crm.service.SellerServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -30,20 +30,23 @@ psql postgres -c "CREATE DATABASE crm_db;"
 ### 2. Собрать и запустить
 
 ```bash
-mvn spring-boot:run
+Откройте вкладку Gradle в правой части экрана.
+
+Раскройте дерево проекта: Shift_crm_system -> Tasks -> application.
+
+Нажмите дважды на задачу bootRun.
 ```
 
-Или собрать jar и запустить:
 
-```bash
-mvn clean package
-java -jar target/crm-system-1.0.0.jar
-```
 
 Запустить только тесты:
 
 ```bash
-mvn test
+Откройте вкладку Gradle в правой части экрана.
+
+Раскройте дерево проекта: Tasks -> verification -> test.
+
+Нажмите дважды на задачу test
 ```
 
 Приложение запустится на `http://localhost:8080`.

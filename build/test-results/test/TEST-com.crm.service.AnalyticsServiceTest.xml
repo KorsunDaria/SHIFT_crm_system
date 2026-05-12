@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crm.service.AnalyticsServiceTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-05-12T14:28:00" hostname="MacBook-Pro-Daria-2.local" time="0.134">
+  <properties/>
+  <testcase name="getBestPeriod_shouldFindDenseCluster()" classname="com.crm.service.AnalyticsServiceTest" time="0.111"/>
+  <testcase name="getBestPeriod_shouldCalculateTotalAmountCorrectly()" classname="com.crm.service.AnalyticsServiceTest" time="0.004"/>
+  <testcase name="getBestSeller_shouldReturnTopSeller_forDayPeriod()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <testcase name="getBestSeller_shouldReturnTopSeller_forQuarterPeriod()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <testcase name="getBestSeller_shouldReturnTopSeller_forMonthPeriod()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <testcase name="getBestSeller_shouldReturnTopSeller_forYearPeriod()" classname="com.crm.service.AnalyticsServiceTest" time="0.002"/>
+  <testcase name="getBestPeriod_shouldThrow_whenSellerNotFound()" classname="com.crm.service.AnalyticsServiceTest" time="0.002"/>
+  <testcase name="getSellersWithTotalBelow_shouldReturnEmpty_whenNoneBelow()" classname="com.crm.service.AnalyticsServiceTest" time="0.005"/>
+  <testcase name="getSellersWithTotalBelow_shouldThrow_whenFromAfterTo()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <testcase name="getBestSeller_shouldThrow_whenInvalidPeriod()" classname="com.crm.service.AnalyticsServiceTest" time="0.0"/>
+  <testcase name="getSellersWithTotalBelow_shouldReturnList()" classname="com.crm.service.AnalyticsServiceTest" time="0.0"/>
+  <testcase name="getBestPeriod_shouldReturnSingleTransaction_whenOnlyOne()" classname="com.crm.service.AnalyticsServiceTest" time="0.002"/>
+  <testcase name="getBestPeriod_shouldThrow_whenNoTransactions()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <testcase name="getBestSeller_shouldThrow_whenNoTransactions()" classname="com.crm.service.AnalyticsServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crm.controller.AnalyticsControllerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-05-12T14:27:59" hostname="MacBook-Pro-Daria-2.local" time="0.806">
+  <properties/>
+  <testcase name="getBestSeller_shouldReturn404_whenNoTransactions()" classname="com.crm.controller.AnalyticsControllerTest" time="0.687"/>
+  <testcase name="getBestSeller_shouldReturn200_withDefaultPeriod()" classname="com.crm.controller.AnalyticsControllerTest" time="0.028"/>
+  <testcase name="getBestPeriod_shouldReturn200()" classname="com.crm.controller.AnalyticsControllerTest" time="0.011"/>
+  <testcase name="getLowPerformers_shouldReturnEmptyList_whenAllAboveThreshold()" classname="com.crm.controller.AnalyticsControllerTest" time="0.014"/>
+  <testcase name="getLowPerformers_shouldReturn400_whenFromAfterTo()" classname="com.crm.controller.AnalyticsControllerTest" time="0.011"/>
+  <testcase name="getLowPerformers_shouldReturn400_whenParamsMissing()" classname="com.crm.controller.AnalyticsControllerTest" time="0.009"/>
+  <testcase name="getBestPeriod_shouldReturn404_whenNoTransactions()" classname="com.crm.controller.AnalyticsControllerTest" time="0.008"/>
+  <testcase name="getBestSeller_shouldReturn200_forDayPeriod()" classname="com.crm.controller.AnalyticsControllerTest" time="0.009"/>
+  <testcase name="getBestSeller_shouldReturn400_whenInvalidPeriod()" classname="com.crm.controller.AnalyticsControllerTest" time="0.007"/>
+  <testcase name="getBestPeriod_shouldReturn404_whenSellerNotFound()" classname="com.crm.controller.AnalyticsControllerTest" time="0.008"/>
+  <testcase name="getLowPerformers_shouldReturn200WithList()" classname="com.crm.controller.AnalyticsControllerTest" time="0.009"/>
+  <system-out><![CDATA[21:28:00.172 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
+21:28:00.346 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.347 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.348 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.408 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.408 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.409 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.434 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.434 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.434 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.447 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.447 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.447 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.460 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.460 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.460 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.470 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.471 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.471 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.479 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.479 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.479 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.487 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.487 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.487 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.495 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.496 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.496 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.503 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.503 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.503 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+21:28:00.512 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+21:28:00.512 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+21:28:00.512 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/dariakorsun/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.13/979ce25f7d3096a2e82214ba7dc972a05ce7a171/byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
